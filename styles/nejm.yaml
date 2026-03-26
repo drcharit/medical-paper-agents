@@ -1,0 +1,104 @@
+# New England Journal of Medicine — Journal Style Profile
+# Source: Medical_Journal_Style_Reference_Guide.md
+# Last updated: 2026-03-26
+
+journal_name: "New England Journal of Medicine"
+english_variant: american
+
+spelling:
+  ise_ize: "-ize"          # randomized, minimized, characterized
+  our_or: "-or"            # behavior, tumor, color
+  re_er: "-er"             # center, fiber, liter
+  ae_digraph: "-e-"        # anemia, hematology, pediatric
+  oe_digraph: "-e-"        # esophagus, edema, diarrhea
+
+drug_naming:
+  system: USAN             # US Adopted Names / generic names
+  overrides: {}            # standard USAN: epinephrine, acetaminophen, albuterol
+
+formatting:
+  decimal_point: baseline  # 23.4
+  thousands_separator: comma  # 10,000
+  numbers_below_ten: numerals  # generally use numerals
+  p_value_leading_zero: false  # .04 (AMA influence)
+  p_value_case: uppercase      # P=.04
+  p_value_italic: false
+  oxford_comma: true
+  quotation_marks: double      # American style: double primary
+  date_format: "Month DD, YYYY"  # March 14, 2026
+
+abstract:
+  max_words: 250
+  headings:
+    - Background
+    - Methods
+    - Results
+    - Conclusions
+
+special_panels: []  # NEJM has no special panel requirement
+
+voice:
+  active_voice: encouraged_in_results
+  first_person: accepted
+  tone: conservative_terse
+  promotional_language: forbidden
+
+word_limits:
+  original_research: 2700
+  rct: 2700
+  systematic_review: 2700
+  comment: 800
+  correspondence: 250
+
+reference_limit: 40
+reference_style: vancouver
+figure_table_limit: 5
+
+sentence_style:
+  target_mean_length: 22
+  target_std_dev: 8.0
+  max_consecutive_same_start: 2
+
+ai_word_blacklist:
+  - delve
+  - elucidate
+  - underscore
+  - showcase
+  - bolster
+  - foster
+  - harness
+  - leverage
+  - meticulous
+  - intricate
+  - pivotal
+  - groundbreaking
+  - transformative
+  - comprehensive
+  - multifaceted
+  - nuanced
+  - notably
+  - seamlessly
+  - landscape
+  - tapestry
+  - testament
+  - crucial
+  - invaluable
+  - revolutionize
+  - innovative
+  - commendable
+  - profoundly
+  - utilize
+  - plethora
+  - myriad
+
+drug_name_examples:
+  # BAN / Traditional          USAN (used by NEJM)
+  adrenaline:                  epinephrine
+  noradrenaline:               norepinephrine
+  frusemide:                   furosemide
+  lignocaine:                  lidocaine
+  salbutamol:                  albuterol
+  paracetamol:                 acetaminophen
+  glyceryl_trinitrate:         nitroglycerin
+  pethidine:                   meperidine
+  # NEJM uses USAN: epinephrine, acetaminophen, albuterol, furosemide

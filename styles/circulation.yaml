@@ -1,0 +1,108 @@
+# Circulation (AHA) — Journal Style Profile
+# Source: Medical_Journal_Style_Reference_Guide.md + AMA Manual of Style 11th ed.
+# Last updated: 2026-03-26
+
+journal_name: "Circulation"
+english_variant: american
+
+spelling:
+  ise_ize: "-ize"          # randomized, minimized, characterized
+  our_or: "-or"            # behavior, tumor, color
+  re_er: "-er"             # center, fiber, liter
+  ae_digraph: "-e-"        # anemia, hematology, pediatric
+  oe_digraph: "-e-"        # esophagus, edema, diarrhea
+
+drug_naming:
+  system: USAN             # US Adopted Names / generic names
+  overrides: {}            # standard USAN: epinephrine, acetaminophen, albuterol
+
+formatting:
+  decimal_point: baseline  # 23.4
+  thousands_separator: thin_space  # AMA: no comma in 4-digit; thin space 10 000+
+  numbers_below_ten: numerals      # AMA: use numerals throughout
+  p_value_leading_zero: false      # .04 (AMA style)
+  p_value_case: uppercase          # italic capital P: P=.04
+  p_value_italic: true             # AMA requires italic P
+  oxford_comma: true               # AMA: serial comma required
+  quotation_marks: double          # American style: double primary
+  date_format: "Month DD, YYYY"    # March 14, 2026
+
+abstract:
+  max_words: 350
+  headings:
+    - Background
+    - Methods
+    - Results
+    - Conclusions
+
+special_panels:
+  - name: "Clinical Perspective"
+    sections:
+      - "What Is New?"
+      - "What Are the Clinical Implications?"
+
+voice:
+  active_voice: preferred
+  first_person: accepted
+  tone: specialty_focused
+  promotional_language: forbidden
+
+word_limits:
+  original_research: 7000
+  rct: 7000
+  systematic_review: 7000
+  comment: 2000
+  correspondence: 500
+
+reference_limit: 50
+reference_style: AMA          # lists ALL authors (no et al. in reference list)
+figure_table_limit: 8
+
+sentence_style:
+  target_mean_length: 22
+  target_std_dev: 8.0
+  max_consecutive_same_start: 2
+
+ai_word_blacklist:
+  - delve
+  - elucidate
+  - underscore
+  - showcase
+  - bolster
+  - foster
+  - harness
+  - leverage
+  - meticulous
+  - intricate
+  - pivotal
+  - groundbreaking
+  - transformative
+  - comprehensive
+  - multifaceted
+  - nuanced
+  - notably
+  - seamlessly
+  - landscape
+  - tapestry
+  - testament
+  - crucial
+  - invaluable
+  - revolutionize
+  - innovative
+  - commendable
+  - profoundly
+  - utilize
+  - plethora
+  - myriad
+
+drug_name_examples:
+  # BAN / Traditional          USAN (used by Circulation)
+  adrenaline:                  epinephrine
+  noradrenaline:               norepinephrine
+  frusemide:                   furosemide
+  lignocaine:                  lidocaine
+  salbutamol:                  albuterol
+  paracetamol:                 acetaminophen
+  glyceryl_trinitrate:         nitroglycerin
+  pethidine:                   meperidine
+  # Circulation uses USAN and lists ALL authors in references (no et al.)

@@ -1,0 +1,119 @@
+# BMJ (British Medical Journal) — Journal Style Profile
+# Source: Medical_Journal_Style_Reference_Guide.md
+# Last updated: 2026-03-26
+
+journal_name: "The BMJ"
+english_variant: british
+
+spelling:
+  ise_ize: "-ise"          # randomised, minimised, characterised
+  our_or: "-our"           # behaviour, tumour, colour
+  re_er: "-re"             # centre, fibre, litre
+  ae_digraph: "-ae-"       # anaemia, haematology, paediatric
+  oe_digraph: "-oe-"       # oesophagus, oedema, diarrhoea
+
+drug_naming:
+  system: BAN              # British Approved Names
+  overrides:
+    epinephrine: adrenaline      # BMJ notably uses adrenaline, not epinephrine
+    norepinephrine: noradrenaline
+    acetaminophen: paracetamol
+    albuterol: salbutamol
+    lidocaine: lignocaine
+    furosemide: frusemide
+
+formatting:
+  decimal_point: baseline  # 23.4 (standard period, NOT midline)
+  thousands_separator: thin_space  # 10 000
+  numbers_below_ten: spell_out     # spell out one to nine
+  p_value_leading_zero: true       # 0.04
+  p_value_case: uppercase          # P=0.04
+  p_value_italic: false
+  oxford_comma: false              # BMJ generally follows traditional British: no serial comma
+  quotation_marks: single          # British style: single primary
+  date_format: "DD Month YYYY"     # 14 March 2026
+
+abstract:
+  max_words: 400
+  headings:                        # BMJ uses 8 structured headings
+    - Objectives
+    - Design
+    - Setting
+    - Participants
+    - Main outcome measures
+    - Results
+    - Conclusions
+    - Trial registration
+
+special_panels:
+  - name: "What this study adds"
+    sections:
+      - "What is already known on this topic"
+      - "What this study adds"
+      - "How this study might affect research, practice, or policy"
+
+voice:
+  active_voice: required           # explicitly instructs active voice
+  first_person: encouraged         # strongest advocate for "we" among Big Four
+  tone: accessible_plain
+  promotional_language: forbidden
+
+word_limits:
+  original_research: 4000
+  rct: 4000
+  systematic_review: 4000
+  comment: 1200
+  correspondence: 300
+
+reference_limit: 50
+reference_style: vancouver
+figure_table_limit: 6
+
+sentence_style:
+  target_mean_length: 20           # BMJ favours short sentences
+  target_std_dev: 7.0
+  max_consecutive_same_start: 2
+
+ai_word_blacklist:
+  - delve
+  - elucidate
+  - underscore
+  - showcase
+  - bolster
+  - foster
+  - harness
+  - leverage
+  - meticulous
+  - intricate
+  - pivotal
+  - groundbreaking
+  - transformative
+  - comprehensive
+  - multifaceted
+  - nuanced
+  - notably
+  - seamlessly
+  - landscape
+  - tapestry
+  - testament
+  - crucial
+  - invaluable
+  - revolutionize
+  - innovative
+  - commendable
+  - profoundly
+  - utilize
+  - plethora
+  - myriad
+
+drug_name_examples:
+  # USAN / rINN                BMJ uses BAN
+  epinephrine:                 adrenaline
+  norepinephrine:              noradrenaline
+  furosemide:                  frusemide
+  lidocaine:                   lignocaine
+  albuterol:                   salbutamol
+  acetaminophen:               paracetamol
+  nitroglycerin:               glyceryl trinitrate
+  meperidine:                  pethidine
+  # BMJ uses BAN: adrenaline (not epinephrine), paracetamol (not acetaminophen)

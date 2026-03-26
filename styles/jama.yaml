@@ -1,0 +1,114 @@
+# JAMA (Journal of the American Medical Association) — Journal Style Profile
+# Source: Medical_Journal_Style_Reference_Guide.md + AMA Manual of Style 11th ed.
+# Last updated: 2026-03-26
+
+journal_name: "JAMA"
+english_variant: american
+
+spelling:
+  ise_ize: "-ize"          # randomized, minimized, characterized
+  our_or: "-or"            # behavior, tumor, color
+  re_er: "-er"             # center, fiber, liter
+  ae_digraph: "-e-"        # anemia, hematology, pediatric
+  oe_digraph: "-e-"        # esophagus, edema, diarrhea
+
+drug_naming:
+  system: USAN             # US Adopted Names; generic first, brand in parentheses
+  overrides: {}            # standard USAN: epinephrine, acetaminophen, albuterol
+
+formatting:
+  decimal_point: baseline  # 23.4
+  thousands_separator: thin_space  # no comma in 4-digit (8923); thin space 10 000+
+  numbers_below_ten: numerals      # AMA: use numerals throughout, almost never spell out
+  p_value_leading_zero: false      # .04 (AMA: no leading zero when value cannot exceed 1.0)
+  p_value_case: uppercase          # italic capital P: P=.04
+  p_value_italic: true             # AMA requires italic P
+  oxford_comma: true               # AMA: serial comma required
+  quotation_marks: double          # American style: double primary
+  date_format: "Month DD, YYYY"    # March 14, 2026
+
+abstract:
+  max_words: 350
+  headings:
+    - Importance
+    - Objective
+    - Design
+    - Setting
+    - Participants
+    - Exposures
+    - Main Outcomes and Measures
+    - Results
+    - Conclusions and Relevance
+
+special_panels:
+  - name: "Key Points"
+    sections:
+      - "Question"
+      - "Findings"
+      - "Meaning"
+
+voice:
+  active_voice: preferred
+  first_person: accepted
+  tone: clear_clinical
+  promotional_language: forbidden
+
+word_limits:
+  original_research: 3000
+  rct: 3000
+  systematic_review: 3500
+  comment: 1200
+  correspondence: 400
+
+reference_limit: 75
+reference_style: AMA
+figure_table_limit: 5
+
+sentence_style:
+  target_mean_length: 22
+  target_std_dev: 8.0
+  max_consecutive_same_start: 2
+
+ai_word_blacklist:
+  - delve
+  - elucidate
+  - underscore
+  - showcase
+  - bolster
+  - foster
+  - harness
+  - leverage
+  - meticulous
+  - intricate
+  - pivotal
+  - groundbreaking
+  - transformative
+  - comprehensive
+  - multifaceted
+  - nuanced
+  - notably
+  - seamlessly
+  - landscape
+  - tapestry
+  - testament
+  - crucial
+  - invaluable
+  - revolutionize
+  - innovative
+  - commendable
+  - profoundly
+  - utilize
+  - plethora
+  - myriad
+
+drug_name_examples:
+  # BAN / Traditional          USAN (used by JAMA)
+  adrenaline:                  epinephrine
+  noradrenaline:               norepinephrine
+  frusemide:                   furosemide
+  lignocaine:                  lidocaine
+  salbutamol:                  albuterol
+  paracetamol:                 acetaminophen
+  glyceryl_trinitrate:         nitroglycerin
+  pethidine:                   meperidine
+  # JAMA uses USAN: "atorvastatin (Lipitor)" format — generic first, brand in parens

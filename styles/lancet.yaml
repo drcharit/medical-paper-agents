@@ -1,0 +1,110 @@
+# The Lancet — Journal Style Profile
+# Source: Medical_Journal_Style_Reference_Guide.md
+# Last updated: 2026-03-26
+
+journal_name: "The Lancet"
+english_variant: british
+
+spelling:
+  ise_ize: "-ise"          # randomised, minimised, characterised
+  our_or: "-our"           # behaviour, tumour, colour
+  re_er: "-re"             # centre, fibre, litre
+  ae_digraph: "-ae-"       # anaemia, haematology, paediatric
+  oe_digraph: "-oe-"       # oesophagus, oedema, diarrhoea
+
+drug_naming:
+  system: rINN             # recommended International Non-proprietary Names
+  overrides: {}            # rINN aligns with modern international naming
+
+formatting:
+  decimal_point: midline   # 23·4 (MANDATORY — unique to Lancet)
+  thousands_separator: thin_space  # 10 000
+  numbers_below_ten: spell_out     # spell out one to ten except with units
+  p_value_leading_zero: true       # 0·04
+  p_value_case: lowercase          # p=0·04
+  p_value_italic: false
+  oxford_comma: true
+  quotation_marks: single          # British style: single primary
+  date_format: "DD Month YYYY"     # 14 March 2026
+
+abstract:
+  max_words: 300
+  headings:
+    - Background
+    - Methods
+    - Findings            # NOT "Results"
+    - Interpretation      # NOT "Conclusions"
+    - Funding
+
+special_panels:
+  - name: "Research in Context"
+    sections:
+      - "Evidence before this study"
+      - "Added value of this study"
+      - "Implications of all the available evidence"
+
+voice:
+  active_voice: encouraged
+  first_person: accepted
+  tone: authoritative_global_advocacy
+  promotional_language: forbidden
+
+word_limits:
+  original_research: 3000
+  rct: 4500
+  systematic_review: 3500
+  comment: 1500
+  correspondence: 250
+
+reference_limit: 30
+reference_style: vancouver
+figure_table_limit: 5
+
+sentence_style:
+  target_mean_length: 22
+  target_std_dev: 8.0
+  max_consecutive_same_start: 2
+
+ai_word_blacklist:
+  - delve
+  - elucidate
+  - underscore
+  - showcase
+  - bolster
+  - foster
+  - harness
+  - leverage
+  - meticulous
+  - intricate
+  - pivotal
+  - groundbreaking
+  - transformative
+  - comprehensive
+  - multifaceted
+  - nuanced
+  - notably
+  - seamlessly
+  - landscape
+  - tapestry
+  - testament
+  - crucial
+  - invaluable
+  - revolutionize
+  - innovative
+  - commendable
+  - profoundly
+  - utilize
+  - plethora
+  - myriad
+
+drug_name_examples:
+  # BAN / Traditional          rINN / USAN
+  adrenaline:                  epinephrine
+  noradrenaline:               norepinephrine
+  frusemide:                   furosemide
+  lignocaine:                  lidocaine
+  salbutamol:                  albuterol
+  paracetamol:                 acetaminophen
+  glyceryl_trinitrate:         nitroglycerin
+  pethidine:                   meperidine
+  # Lancet uses rINN: furosemide, lidocaine, epinephrine, acetaminophen
